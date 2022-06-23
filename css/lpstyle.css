@@ -1,0 +1,130 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE LAYOUT
+/*******************************************/
+
+
+div.header {
+  width: auto;
+  height: 450px;
+  position: absolute;
+  top:50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+  margin: auto;
+  height: 250px;
+}
+
+footer  {
+  width: 100%;
+  position: fixed;
+  bottom: 25px;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.secLeft  {
+  padding-left: 12px;
+}
+
+.secRight {
+  text-align: right;
+  padding: 12px;
+}
+
+
+
+/******************************************
+/* STYLING
+/*******************************************/
+
+.logo {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  border: white solid 2px;
+}
+
+body {
+  background-color: rgb(22, 21, 21);
+}
+
+a {
+  text-decoration: none;
+}
+
+.text {
+  color: white;
+}
+
+.hide {
+  display: none;
+}
+
+.switchLeft , .switchRight {
+  color:rgb(22, 21, 21);
+}
+
+h1.text {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  padding-top: 12px;
+}
+
+p a.text , section span{
+  font-size: 1.2rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+@media screen and (max-width: 800px) {
+  div.header {
+    width: auto;
+    height: 575px;
+    position: absolute;
+    top:50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1500px){
+  .secLeft{
+    margin-left: 300px;
+  }
+  .secRight{
+    margin-right: 300px
+  }
+}
