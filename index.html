@@ -1,63 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-  	<meta charset="utf-8">
-  	<meta name="description" content="Your description goes here">
-  	<meta name="keywords" content="one, two, three">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<meta charset="utf-8">
+  		<meta name="description" content="Your description goes here">
+  		<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
 		<title>Blank Template</title>
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/index.css">
+
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
 	</head>
 	
-	<body>
+	<body id="page-container">
+		<div id="content-wrap">
 		<header>
-			<img src="Assets/InvisiCookie.png" alt="halfbake logo">
-			<h1>Welcome, Weary Travelers</h1>
-			<section>
-				<a href="">
-					<span>What is...</span><span> Half Bake?</span>
-				</a>
-				<a href="">
-					<span>How do I...</span><span>get involved?</span>
-				</a>
+			<h1 class="text">Welcome Weary Traveler</h1>
+			<img src="git.ignore/Assets/InvisiCookie.png" alt="halfbake logo" class="logo">
+			<section class="nav">
+				<a href="">Volumes</a>
+				<a href="">News</a>
+				<a href="">Talismans</a>
 			</section>
 		</header>
 
-		<section class="sectionList">
-			<div>
-				<h2>Volumes</h2>
+		<section class="sectionList" id="volumes">
+			<div id="volumesHead">
+				<h2 class="text">Volumes</h2>
 				<img src="" alt="">
 			</div>
 			<ul>
-				<li><a href="">Volume One</a></li>
+				<li><a href="" class="text at">Volume One</a></li>
 			</ul>
 		</section>
 
-		<section class="sectionList">
-			<div>
-				<h2>News</h2>
+		<section class="sectionList" id="news">
+			<div id="newsHead">
+				<h2 class="text">News</h2>
 				<img src="" alt="">
 			</div>
 			<ul>
-				<li><a href="">Hello, World</a></li>
+				<li><a href="" class="text at">Hello, World</a></li>
 			</ul>
 		</section>
 
-		<section class="sectionList">
-			<div>
-				<h2>Talismans</h2>
+		<section class="sectionList" id="talismans">
+			<div id="textHead">
+				<h2 class="text">Talismans</h2>
 				<img src="" alt="">
 			</div>
 			<ul>
-				<li><a href="">Instigator</a></li>
+				<li><a href="" class="text at">Instigator</a></li>
 			</ul>
 		</section>
 
-		<footer></footer>
+		</div>
+
+		<footer>
+			<a href="about.html">
+				<span>What is...</span><span> Half Bake?</span>
+			</a>
+			<a href="">
+				<span>How do I...</span><span>get involved?</span>
+			</a>
+		</footer>
 
 		<script type="text/javascript" src=""></script>
 	</body>
