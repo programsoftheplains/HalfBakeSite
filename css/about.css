@@ -21,29 +21,42 @@
   /* BASE LAYOUT
   /*******************************************/
   
+  #about  {
+    margin-bottom: 30px;
+  }
+
+  #footer>ul>li  {
+    margin: 5px;
+  }
 
   
   /******************************************
   /* STYLING
   /*******************************************/
   
-  body {
+  body{
     background-color: rgb(22, 21, 21);
+    margin: 3%;
   }
 
   h1    {
       color: white;
   }
   
-  a {
-      text-decoration: none;
-      color: red;
-  }
-  
   .text {
     color: white;
     font-family: 'Josefin Sans', sans-serif;
+  }
 
+    
+  a.text , a {
+    text-decoration: none;
+    color: red;
+  }
+
+  #footer>ul>li {
+    list-style: none;
+    display: inline;
   }
   
   .hide {
@@ -58,4 +71,4 @@
   
   @media screen and (max-width: 800px) {
    
-  }
+  } 
