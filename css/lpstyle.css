@@ -118,6 +118,10 @@ p a.text , section span{
     right: 0;
     margin: auto;
   }
+
+  .switchLeft , .switchRight {
+    color:rgb(236, 33, 33);
+  }
 }
 
 @media screen and (min-width: 1500px){
