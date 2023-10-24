@@ -1,82 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-  		<meta charset="utf-8">
-  		<meta name="description" content="Your description goes here">
-  		<meta name="keywords" content="one, two, three">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<title>Half-Bake</title>
+		<title>Welcome to Half-Bake</title>
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/lpstyle.css">
 
 		<!-- Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
 
-		<!-- social icons-->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
 	</head>
-	
-	<body id="page-container">
-		<div id="content-wrap">
-		<header>
-			<h1 class="text">Hello Weary Traveler</h1>
-			<img src="git.ignore/Assets/InvisiCookie.png" alt="halfbake logo" class="logo">
-			<section class="nav">
-				<a href="">Volumes</a>
-				<a href="">News</a>
-				<a href="">Socials</a>
-			</section>
-		</header>
-
-
-		<div class="middleSection">
-
-			<section class="sectionList" id="volumes">
-				<div id="volumesHead">
-					<h2 class="text titles">Volumes</h2>
-					<img src="" alt="">
-				</div>
-				<ul>
-					<li><a href="volumeOne.html" class="text at">Volume One</a></li>
-				</ul>
-			</section>
-	
-			<section class="sectionList" id="news">
-				<div id="newsHead">
-					<h2 class="text titles">News</h2>
-					<img src="" alt="">
-				</div>
-				<ul>
-					<li><a href="helloWorld.html" class="text at">Hello, World</a></li>
-				</ul>
-			</section>
-
-		</div>
+	<body>
 		
-
+		<div class="header">
+			<header>
+				<a id="logoToggle" href="landingPage.html" class="mainLink">
+					<img class="logo" id="logoMain" src="git.ignore/Assets/InvisiCookie.png" alt="Logo">
+					<img class="logo hide" id="logoSecond" src="git.ignore/Assets/BrokenCookieFlat.png" alt="Logo">
+				</a>
+				<h1 class="text" id="mainText">H A L F  -  B A K E</h1>
+				<p><a href="landingPage.html" class="text mainLink" id="secondToggle">enter the void</a></p>
+			</header>
 		</div>
 
 		<footer>
-			<a href="about.html">
-				<span>What is </span><span> Half Bake?</span>
+			<a href="about.html" id="hoverL">
+				<section class="secLeft">
+					<span class="text">what is...</span>
+					<div></div>
+					<span class="switchLeft" id="switchL">Half-Bake?</span>
+				</section>
 			</a>
-			<div class="instagramIcon">
-                <a href="https://www.instagram.com/halfbakenothalfbaked/">
-                    <i class="fa fa-instagram" style="font-size:48px;color:rgb(243, 133, 172)"></i>
-                </a>
-            </div>
-			<a href="contribute.html">
-				<span>How do I </span><span>get involved?</span>
+			<a href="contribute.html" id="hoverR">
+				<section class="secRight">
+					<span class="text hoverRight">how do i...</span>
+					<div></div>
+					<span class="switchRight" id="switchR">get involved?</span>
+				</section>
 			</a>
 		</footer>
 
-		<script type="text/javascript" src=""></script>
+		<script type="text/javascript" src="js/landingPage.js"></script>
 	</body>
 </html>
