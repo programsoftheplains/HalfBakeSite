@@ -135,6 +135,15 @@ a , .at {
   
 @media screen and (max-width: 800px) {
 
+  .middleSection{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .sectionList{
+    margin: 40px;
+  }
+
 }
   
 @media screen and (min-width: 1500px){

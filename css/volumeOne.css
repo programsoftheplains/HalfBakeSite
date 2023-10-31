@@ -110,7 +110,22 @@ a , .at {
    
    
 @media screen and (max-width: 800px) {
- 
+
+  .columnContainer{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 60px;
+  }
+
+ footer{
+  display: flex;
+  flex-direction: column;
+ }
+
+ footer>*{
+  margin: 10px;
+ }
+
 }
    
 @media screen and (min-width: 1500px){

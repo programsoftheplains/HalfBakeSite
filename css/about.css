@@ -82,5 +82,8 @@ footer>ul  {
   
   
   @media screen and (max-width: 800px) {
-   
+   footer>ul{
+    display: flex;
+    flex-direction: column;
+   }
   } 
